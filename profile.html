@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Checkscam - Trang chủ</title>
+    <meta name="description" content="Checkscam - Trang chủ">
+    <meta name="author" content="">
+
+    <meta property="og:title" content="Checkscam - Trang chủ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Checkscam - Trang chủ">
+    <meta property="og:image" content="">
+
+    <link rel="icon" href="/assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+          rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #FF225C;
+            --primary-hover: #ad002c;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/plugins/select2/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/plugins/fancybox/fancybox.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<header class="header bg-white position-relative z-index-10" id="header">
+    <div class="header-main">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="header-bar d-flex align-items-center">
+                        <div class="header-hamburger d-block d-lg-none">
+                            <button type="button" class="no-animation" id="header-hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                        <div class="header-logo">
+                            <a href="">
+                                <img src="./assets/images/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="header-button d-lg-none ml-auto d-flex align-items-center justify-content-end">
+                            <div class="header-button_items position-relative">
+                                <button type="button"
+                                        class="btn-theme btn-theme_gray btn-collapse_search btn-call_search">
+                                    <i class="far fa-search"></i>
+                                </button>
+                                <div class="header-search">
+                                    <form action="">
+                                        <div class="form-group position-relative">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Nhập số điện thoại, số tài khoản ngân hàng ...">
+                                            <button type="submit">
+                                                <i class="far fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="header-button_items position-relative">
+                                <a href="" role="button" class="btn-theme btn-theme_primary">
+                                    <div class="d-block d-sm-none">
+                                        <i class="fas fa-exclamation"></i>
+                                    </div>
+                                    <div class="d-sm-block d-none">
+                                        Tố cáo lừa đảo
+                                    </div>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="header-navigation" class="header-navigation d-lg-flex align-items-center justify-content-end">
+                        <ul>
+                            <li class="d-block d-lg-none header-navigation_logo">
+                                <a href="">
+                                    <img src="./assets/images/logo.svg" alt="">
+                                </a>
+                                <button type="button" class="header-navigation_close" id="header-navigation_close"><i class="far fa-times"></i></button>
+                            </li>
+                            <li>
+                                <a href="">
+                                    TRANG CHỦ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    GIỚI THIỆU
+                                </a>
+                            </li>
+                            <li>
+                                <a href="jasvascript:void(0)">
+                                    DỊCH VỤ <i class="far fa-angle-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            Gửi tố cáo scam
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Check quỹ bảo hiểm
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">
+                                    TIN TỨC
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    ĐIỀU KHOẢN
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    LIÊN HỆ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header-button d-none d-lg-flex align-items-center justify-content-end">
+                        <div class="header-button_items position-relative">
+                            <button type="button" class="btn-theme btn-theme_gray btn-collapse_search btn-call_search">
+                                <i class="far fa-search"></i>
+                            </button>
+                            <div class="header-search">
+                                <form action="">
+                                    <div class="form-group position-relative">
+                                        <input type="text" class="form-control"
+                                               placeholder="Nhập số điện thoại, số tài khoản ngân hàng ...">
+                                        <button type="submit">
+                                            <i class="far fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="header-button_items position-relative">
+                            <a href="" role="button" class="btn-theme btn-theme_primary">
+                                TỐ CÁO LỪA ĐẢO
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-overlay" id="header-overlay"></div>
+</header>
+
+<div class="main">
+    <div class="section-gap section-profile">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-10">
+                    <div class="profile-inner">
+                        <div class="profile-avatar">
+                            <img src="./assets/images/avt.jpg" alt="">
+                        </div>
+                        <div class="profile-title">
+                            Bùi Quang Hiệu    <i data-visualcompletion="css-img" aria-label="Tài khoản đã xác minh" class="" role="img" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/AOac759jBKZ.png&quot;); background-position: -168px -153px; background-size: auto; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+
+                        <div class="profile-buttons">
+                            <a href="" class="btn-theme btn-theme_primary">
+                                <i class="fab fa-facebook-messenger"></i>
+                                Check Mess
+                                <span></span>
+                            </a>
+                            <a href="" class="btn-theme btn-theme_primary">
+                                <i class="fas fa-phone-alt"></i>
+                                Check Phone
+                                <span></span>
+                            </a>
+                        </div>
+                        <div class="profile-boxs">
+                            <div class="row row-col-15">
+                                <div class="col-md-6">
+                                    <div class="profile-box">
+                                        <div class="profile-box_content">
+                                            <div class="profile-box_content__title">
+                                                Thông tin liên hệ
+                                            </div>
+                                            <div class="profile-box_content__list">
+                                                <p>
+                                                    <span>
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </span>
+                                                    Check Facebook:
+                                                    <a href="">
+                                                        100041154973838
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <span>
+                                                        <img src="./assets/images/zalo.webp" alt="">
+                                                    </span>
+                                                    Check Zalo:
+                                                    <a href="">
+                                                        0843217283
+                                                    </a>
+                                                </p>
+                                                <p>
+                                                    <span>
+                                                        <i class="far fa-globe"></i>
+                                                    </span>
+                                                    Website:
+                                                    <a href="">
+                                                        https://fb.com/BQHieu.info
+                                                    </a>
+                                                </p>
+                                            </div>
+                                            <div class="profile-box_content__image">
+                                                <img src="./assets/images/info.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="profile-box">
+                                        <div class="profile-box_content">
+                                            <div class="profile-box_content__title">
+                                                Quỹ Bảo Hiểm Checkscam
+                                            </div>
+                                            <div class="profile-box_content__desc">
+                                                <p>Khách hàng sẽ được <b>Checkscam bảo hiểm an toàn giao dịch</b> với số
+                                                    tiền trong quỹ bảo hiểm <strong>99.999.999.vnđ</strong> của <strong>Bùi Quang Hiệu</strong></p>
+                                            </div>
+                                            <div class="profile-box_content__image">
+                                                <img src="./assets/images/shield.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-boxs">
+                            <div class="profile-box profile-box_nopr">
+                                <div class="profile-box_content">
+                                    <div class="profile-box_content__title">
+                                        Vui lòng kiểm tra kỹ thông tin trước khi giao dịch tránh
+                                        Fake:
+                                    </div>
+                                    <div class="profile-box_content__subtitle">
+                                        Chủ TK “Bùi Quang Hiệu”
+                                    </div>
+                                    <ul class="pl-3 mb-0">
+                                        <li><strong>Vietcom Bank:</strong> BQH9999</li>
+                                        <li><strong>Momo:</strong> 08.4321.7283 </li>
+                                        <li><strong>MB Bank:</strong> 0666.88888.9999 </li>
+                                    </ul>
+                                    <div class="profile-box_content__desc">
+                                        <p><strong>Lưu Ý:</strong> Tránh trường hợp Nick Fake, Ảnh Fake, Link Fake, Rửa
+                                            Tiền…. Người dùng hãy nhớ Chát đúng Facebook, Gọi đúng SĐT, Chuyển khoản
+                                            đúng những STK có ở trong trong link bảo hiểm này Checkscam cam kết bạn sẽ
+                                            an toàn trong mọi giao dịch..!!!</p>
+                                    </div>
+                                    <div class="profile-box_content_watermark">
+                                        <img src="./assets/images/xacnhanuytin.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-desc">
+                            Mọi giao dịch của bạn với <b>"Bùi Quang Hiệu"</b> sẽ được <b>Check Scam
+                            Bảo vệ</b> với số tiền nằm trong <strong>Quỹ bảo hiểm 99.999.999.vnđ</strong> khi bạn
+                            tuân theo
+                            <a href="">Điều Khoản Sử Dụng</a>
+                            của Check Scam
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-top">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-item">
+                                <div class="footer-item_text">
+                                    Checkscam.info
+                                </div>
+                                <div class="footer-item_link">
+                                    Hotline:
+                                    <a href="tel:0909909909">0843217283</a>
+                                </div>
+                                <div class="footer-item_link">
+                                    Email:
+                                    <a href="mailto:example@gmail.com">rotby2002@gmail.com</a>
+                                </div>
+                                <div class="footer-item_link">
+                                    Địa chỉ: 7/14/22 Đường 182, Tăng Nhơn Phú A, Thủ Đức
+                                </div>
+                                <div class="footer-item_link">
+                                    MST: 0109800597
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-6">
+                            <div class="footer-item">
+                                <div class="footer-item_text footer-item_decor">
+                                    Dịch vụ
+                                </div>
+                                <ul class="footer-item_list">
+                                    <li>
+                                        <a href="#">Check scammer</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Tố cáo lừa đảo</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Check quỹ bảo hiểm</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Dịch vụ facebook</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-6">
+                            <div class="footer-item">
+                                <div class="footer-item_text footer-item_decor">
+                                    Liên kết nhanh
+                                </div>
+                                <ul class="footer-item_list">
+                                    <li>
+                                        <a href="">
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Liên hệ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Chính sách
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Điều khoản
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-6">
+                            <div class="footer-item">
+                                <div class="footer-item_text footer-item_decor">
+                                    Cộng đồng
+                                </div>
+                                <ul class="list-unstyled mb-0 footer-item_social">
+                                    <li class="facebook">
+                                        <a href="https://www.facebook.com/">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="telegram">
+                                        <a href="https://www.facebook.com">
+                                            <i class="fab fa-telegram-plane"></i>
+                                        </a>
+                                    </li>
+                                    <li class="twitter">
+                                        <a href="https://www.facebook.com/">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="youtube">
+                                        <a href="https://www.facebook.com/">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="footer-apps">
+                                    <a href="">
+                                        <img src="./assets/images/appstore.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./assets/images/googleplay.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type=" text/javascript" src="./assets/plugins/jquery.min.js"></script>
+<script type="text/javascript"
+        src="./assets/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script type="text/javascript"
+        src="./assets/plugins/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript"
+        src="./assets/plugins/select2/js/select2.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/fancybox/fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+</html>
